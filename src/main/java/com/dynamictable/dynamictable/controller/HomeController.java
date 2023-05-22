@@ -1,4 +1,4 @@
-package com.dynamictable.dynamictable;
+package com.dynamictable.dynamictable.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,10 +16,10 @@ public class HomeController {
         return "This is Home Page";
     }
 
-    @PostMapping("/dynamictable")
-    public PaymentMethodDto savePaymentMethod( @RequestBody PaymentMethodDto paymentMethodDto )
-    {
-        return null;
+    // @PostMapping("/dynamictable")
+    // public PaymentMethodDto savePaymentMethod( @RequestBody PaymentMethodDto paymentMethodDto )
+    // {
+    //     return null;
         // import org.hibernate.boot.MetadataSources;
         // import org.hibernate.boot.registry.StandardServiceRegistry;
         // import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -68,5 +68,5 @@ public class HomeController {
 
         
         
-    }
+    // }
 }

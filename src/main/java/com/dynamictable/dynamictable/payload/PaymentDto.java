@@ -7,11 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
-public class BillingAddressDto {
-    private int billindaddressid;
-    private String street;
-    private String city;
-    private String state;
-    private String zip;
+public class PaymentDto {
+    private PaymentMethodDto paymentMethod;
 }
